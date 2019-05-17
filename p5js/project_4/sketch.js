@@ -1,57 +1,16 @@
 function setup() {
-    createCanvas(710, 400, WEBGL);
+    createCanvas(710, 400);
   }
   
   function draw() {
-    background(250);
+   
   
-    translate(-240, -100, 0);
-    normalMaterial();
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    plane(70);
-    pop();
-  
-    translate(240, 0, 0);
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    box(70, 70, 70);
-    pop();
-  
-    translate(240, 0, 0);
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    cylinder(70, 70);
-    pop();
-  
-    translate(-240 * 2, 200, 0);
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    cone(70, 70);
-    pop();
-  
-    translate(240, 0, 0);
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    torus(70, 20);
-    pop();
-  
-    translate(240, 0, 0);
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    sphere(70);
-    pop();
+    background(204);
+   
+    
+    triangle(90, 55, 90, 91,150, 90);
+    triangle(190, 55, 190, 291,150, 190);
+    triangle(190, 250, 90, 90,250, 190);
+
   }
   
