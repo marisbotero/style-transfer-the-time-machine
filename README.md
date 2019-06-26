@@ -7,3 +7,8 @@ The time machine is translated into a cultural and technological research from w
 <img src="assets/result.PNG"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+
+
+<img src="assets/resultado_2.PNG"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
