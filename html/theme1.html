@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with,initial-scale=1">
+	<title>Playing 30 cards</title>
+	<link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme_resp.css">
+</head>
+<body>
+	<section class="scoring">
+		<div class="scoring_info">
+			<h4 class="scoring_info_txt" id="turn_user">YOU</h4>
+			<h4 class="scoring_info_txt" id="score_user">0</h4>
+			<h4 class="scoring_info_txt">-</h4>
+			<h4 class="scoring_info_txt" id="score_ai">0</h4>
+			<h4 class="scoring_info_txt" id="turn_ai">AI</h4>
+		</div>
+	</section>
+
+	<section class="cards">
+		<div class="card_pos">
+		    <img class="card_img" id="pos1" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos1')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos2" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos2')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos3" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos3')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos4" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos4')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos5" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos5')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos6" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos6')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos7" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos7')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos8" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos8')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos9" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos9')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos10" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos10')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos11" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos11')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos12" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos12')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos13" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos13')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos14" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos14')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos15" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos15')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos16" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos16')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos17" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos17')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos18" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos18')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos19" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos19')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos20" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos20')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos21" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos21')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos22" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos22')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos23" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos23')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos24" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos24')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos25" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos25')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos26" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos26')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos27" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos27')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos28" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos28')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos29" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos29')">
+		</div>
+		<div class="card_pos">
+		    <img class="card_img" id="pos30" src="../images/theme1/icons/back.png" alt="card image" onclick="userClicksImage('pos30')">
+		</div>
+	</section>
+
+	<section class="game_modal" id="start_game_modal">
+		<div class="modal_content" id="start_modal_content">
+			<div class="lettering" id="start_lettering">
+				<h2 class="lettering_txt" id="start_lettering_txt">Who flips first?</h2>
+			</div>
+			<div class="start_options">
+				<div class="start_opt">
+					<button class="button" id="button_user" onclick="startingGameModal('user')">YOU</button>
+				</div>
+				<div class="start_opt">
+					<h2 class="or_txt">Or</h2>
+				</div>
+				<div class="start_opt">
+					<button class="button" id="button_ai" onclick="startingGameModal('ai')">AI</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="game_modal" id="end_game_modal">
+		<div class="modal_content" id="end_modal_content">
+			<div class="lettering" id="end_lettering">
+				<h2 class="lettering_txt" id="end_lettering_txt">You Won or You Lost</h2>
+			</div>
+			<div class="scoring_modal">
+				<div class="scoring_content">
+					<h4 class="scoring_content_txt" id="score_user_txt">YOU</h4>
+				</div>
+				<div class="scoring_content">
+					<h4 class="scoring_content_txt" id="final_score_user">user score</h4>
+				</div>
+				<div class="scoring_content">
+					<h4 class="scoring_content_txt" id="score_separator">-</h4>
+				</div>
+				<div class="scoring_content">
+					<h4 class="scoring_content_txt" id="final_score_ai">ai score</h4>
+				</div>
+				<div class="scoring_content">
+					<h4 class="scoring_content_txt" id="score_ai_txt">AI</h4>
+				</div>
+			</div>
+			<div class="end_options">
+				<div class="end_opt">
+					<a href="theme1.html" class="button" id="play_again">Play Again</a>
+				</div>
+				<div class="end_opt">
+					<a href="index.html" class="button" id="back_home">Home</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>var theme = "theme1";</script>
+	<script src="../game.js"></script>
+</body>
+</html>

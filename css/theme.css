@@ -1,0 +1,143 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+ *
+ * Scoring
+ *
+ */
+
+.scoring {
+	box-shadow: 0px 1px 10px grey;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(106, 78, 209);
+}
+
+.scoring_info {
+	line-height: 60px;
+}
+
+.scoring_info_txt {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 20px;
+	margin: 0;
+}
+
+/*
+ *
+ * Cards
+ *
+ */
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card_pos {
+	cursor: pointer;
+	display: inline-block;
+}
+
+.card_pos > img {
+	width: 70px;
+	float: left;
+	margin: 1px;
+}
+
+/*
+ *
+ * Modals
+ *
+ */
+.game_modal {
+	position: fixed;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+ #start_game_modal {
+ 	display: block;
+ }
+
+ #end_game_modal {
+ 	display: none;
+ }
+
+.modal_content {
+	text-align: center;
+	background-color: #fefefe;
+	border: 1px solid #9C9C9C;
+	margin: auto;
+	padding: 20px;
+	width: 80%;
+	height: 400px;
+}
+
+.lettering  {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.lettering_txt, .scoring_content_txt {
+	margin: 0px;
+}
+
+.scoring_modal {
+	margin-top: 10px;
+}
+
+.scoring_content {
+	display: inline-block;
+	font-family: 'Pompiere', cursive;
+	font-size: 20px;
+	font-weight: 100;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.start_opt, .end_opt {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.or_txt {
+	font-family: 'Pompiere', cursive;
+	font-size: 20px;
+}
+
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Sue Ellen Francisco', cursive;
+    width: 200px;
+	height: 50px;
+	background-color: rgb(153, 66, 194);
+}
+
+#play_again, #back_home {
+	padding-top: 10px;
+	margin: 10px;
+}

@@ -1,0 +1,200 @@
+
+@media screen and (min-width: 451px) and (max-width: 570px) {
+	.header {
+		height: 70px;
+	}
+	.header_title {
+		line-height: 70px;
+	}
+	.header_title_txt {
+		font-size: 30px;
+	}
+	.main {
+		padding-top: 70px;
+	}
+	.choose_theme {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.theme_opt {
+		height: 200px;
+	}
+	.theme_opt_pic {
+		width: 140px;
+		line-height: 200px;
+	}
+	.theme_img {
+		width: 140px;
+	}
+	.theme_opt_button {
+		width: 140px;
+	}
+	.theme_opt_txt {
+		font-size: 25px;
+	}
+	.about {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+@media screen and (min-width: 858px) {
+	.about_title_txt {
+		font-size: 34px;
+	}
+	.about_description {
+		margin-left: auto;
+		margin-right: auto;
+		width: 850px;
+	}
+	.about_description_txt {
+		font-size: 26px;
+		line-height: 1.5;
+	}
+	.about {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+@media screen and (min-width: 571px) and (max-width: 1000px) {
+	.header {
+		height: 70px;
+	}
+	.header_title {
+		line-height: 70px;
+	}
+	.header_title_txt {
+		font-size: 30px;
+	}
+	.main {
+		padding-top: 70px;
+	}
+	.choose_theme {
+		padding-top: 55px;
+		padding-bottom: 55px;
+	}
+	.theme_options {
+		width: calc(100% - 22px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.theme_opt {
+		width: calc(50% - 4px);
+		margin-left: auto;
+		margin-right: auto;
+		height: 252px;
+	}
+	#theme_opt_1, #theme_opt_3 {
+		margin-right: 2px;
+	}
+	#theme_opt_2, #theme_opt_4 {
+		margin-left: 2px;
+	}
+	.theme_opt_pic {
+		display: block;
+		width: 120px;
+		margin: auto;
+	}
+	.theme_img {
+		width: 120px;
+	}
+	.theme_opt_button {
+		display: block;
+		width: 140px;
+		margin: auto;
+	}
+	.theme_opt_txt {
+		font-size: 27px;
+	}
+	.about {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+@media screen and (min-width: 1001px) {
+	.nav {
+		display: block;
+	}
+	.header {
+		position: static;
+		padding-top: 40px;
+		height: 170px;
+	}
+	.header_title {
+		line-height: 170px;
+	}
+	.header_title_txt {
+		font-size: 65px;
+	}
+	.main {
+		padding-top: 0px;
+	}
+	.themes {
+		padding-bottom: 150px;
+	}
+	.choose_theme {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.choose_theme_txt {
+		font-size: 25px;
+	}
+	.theme_opt {
+		width: calc(25% - 5.3px);
+		margin-left: auto;
+		margin-right: auto;
+		height: 252px;
+	}
+
+	#theme_opt_1, #theme_opt_2, #theme_opt_3 {
+		margin-right: 1.5px;
+	}
+
+	#theme_opt_2, #theme_opt_3, #theme_opt_4 {
+		margin-left: 1.5px;
+	}
+
+	.theme_opt_pic {
+		display: block;
+		width: 120px;
+		margin: auto;
+	}
+	.theme_img {
+		width: 120px;
+	}
+	.theme_opt_button {
+		display: block;
+		width: 140px;
+		margin: auto;
+	}
+	.theme_opt_txt {
+		font-size: 27px;
+	}
+	.about {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.about_description_txt {
+		line-height: 1.8;
+	}
+	.transparent {
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 1140px) {
+	.theme_options {
+		width: 1100px;
+	}
+	.theme_opt {
+		width: calc(25% - 9px);
+	}
+	#theme_opt_1, #theme_opt_2, #theme_opt_3 {
+		margin-right: 4px;
+	}
+	#theme_opt_2, #theme_opt_3, #theme_opt_4 {
+		margin-left: 4px;
+	}
+}

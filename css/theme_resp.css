@@ -1,0 +1,73 @@
+/* Portrait */
+
+/*
+ *
+ * cards
+ *
+ */
+
+@media screen and (min-width: 431px) {
+	.card_pos > img {
+		width: 80px;
+		margin: 1px;
+	}
+}
+@media screen and (min-width: 491px) {
+	.card_pos > img {
+		width: 90px;
+		margin: 1px;
+	}
+}
+@media screen and (min-width: 643px) {
+	.card_pos > img {
+		width: 100px;
+		margin: 1px;
+	}
+}
+@media screen and (min-width: 729px) {
+	.card_pos > img {
+		width: 110px;
+		margin: 1px;
+	}
+}
+@media screen and (min-width: 1008px) {
+	.card_pos > img {
+		width: 120px;
+		margin: 1px;
+	}
+}
+@media screen and (min-width: 1113px) {
+	.card_pos > img {
+		width: 130px;
+		margin: 1px;
+	}
+}
+@media screen and (min-width: 1203px) {
+	.card_pos > img {
+		width: 140px;
+		margin: 1px;
+	}
+}
+
+/*
+ *
+ * Modals
+ *
+ */
+
+@media screen and (max-width: 700px) {
+ 	.start_options, .scoring_modal, .end_options {
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.start_options, .end_options {
+		margin-top: 60px;
+	}
+}
+
+@media screen and (min-width: 701px) {
+	.start_options, .end_options {
+		margin-top: 80px;
+	}
+}

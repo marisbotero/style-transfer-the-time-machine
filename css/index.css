@@ -1,0 +1,284 @@
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F6;
+}
+
+/*
+ *
+ *	Nav
+ *
+ */
+
+.nav {
+	display: none;
+	background-color: rgb(107, 52, 152);
+	position: fixed;
+	width: 100%;
+}
+
+.nav_item {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav_link {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	font-family: 'Pompiere', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+.nav_link:hover {
+	background-color: rgb(180, 79, 205);
+}
+
+/*
+ *
+ *	Header
+ *
+*/
+
+.header {
+	position: fixed;
+	background-color: rgb(238, 157, 227);
+	width: 100%;
+	height: 60px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.header_title {
+	text-align: center;
+	line-height: 60px;
+}
+
+.header_title_txt {
+	margin: 0;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 27px;
+	font-weight: 100;
+	color: white;
+}
+
+/*
+ *
+ *	Main
+ *
+*/
+
+.main {
+	padding-top: 60px;
+}
+
+/*
+ *	Section - themes
+*/
+
+.themes {
+	padding-bottom: 100px;
+}
+
+.choose_theme {
+	text-align: center;
+	padding: 40px;
+}
+
+.choose_theme_txt {
+	margin: 0;
+	font-family: 'Pompiere', cursive;
+	font-weight: 100;
+	font-size: 22px;
+}
+
+.theme_options {
+	width: calc(100% - 20px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.theme_opt {
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0px 1px 10px #B1B1B1;
+}
+
+.theme_opt_pic {
+	display: inline-block;
+	width: 120px;
+	line-height: 150px;
+	margin-right: 8%;
+}
+
+.theme_img {
+	width: 120px;
+	vertical-align: middle;
+}
+
+.theme_opt_link {
+	text-decoration: none;
+}
+
+.theme_opt_button {
+	display: inline-block;
+	width: 120px;
+	background-color: #4FC3CD;
+	border-radius: 5px;
+	vertical-align: middle;
+	margin-left: 8%;
+	box-shadow: 5px 5px 25px #B1B1B1;
+}
+
+.theme_opt_button:hover {
+	box-shadow: 0px 1px 10px #B1B1B1;
+}
+
+.theme_opt_txt {
+	margin: 5px;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: 100;
+	color: white;
+	font-size: 20px;
+}
+
+/*
+ *	Section - transparent
+*/
+
+.transparent {
+	background-color: rgb(240, 123, 205);
+	height: 150px;
+}
+
+/*
+ *	Section - About
+*/
+
+.about {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.about_title {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.about_title_txt {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: 100;
+	font-size: 30px;
+	color: #404040;
+	margin: 0;
+}
+
+.about_description {
+	margin: 20px;
+}
+
+.about_description_txt {
+	margin: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Pompiere', cursive;
+	font-weight: 100;
+	font-size: 25px;
+	color: #404040;
+	line-height: 1.5;
+}
+
+/*
+ *	Section - source_code
+*/
+
+.source_code {
+	background-color: rgb(150, 50, 233);
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.code_link {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 185px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.code_link:hover {
+	box-shadow: 0px 1px 10px grey;
+}
+
+.code_button {
+	background-color: white;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 3px;
+}
+
+.code_button_pic {
+	display: inline-block;
+	width: 40px;
+	height: 60px;
+	margin-right: 5px;
+}
+
+.code_img {
+	display: inline-block;
+	width: 40px;
+	vertical-align: middle;
+}
+
+.code_button_text {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.code_txt {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Pompiere', cursive;
+	font-weight: 100;
+	font-size: 26px;
+	color: black;
+	line-height: 1.2;
+	vertical-align: middle;
+}
+
+/*
+ *
+ *	Footer
+ *
+*/
+
+.footer {
+	background-color: rgb(248, 150, 248);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.go_up {
+	text-align: center;
+}
+
+.go_up_link {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: 100;
+	font-size: 25px;
+	color: white;
+}
